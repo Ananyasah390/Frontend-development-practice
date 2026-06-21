@@ -1,35 +1,26 @@
-body {
-    background-color: #f0f4f8;
-    font-family: Arial, sans-serif;
+/* Element Selector */
+h1 {
+    color: blue;
 }
 
-.card {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border: 2px solid #ddd;
-    border-radius: 10px;
+/* Class Selector */
+.info {
+    color: green;
+}
+
+/* ID Selector */
+#main-heading {
     text-align: center;
 }
 
-h1 {
-    color: #2c3e50;
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
 }
 
-h3 {
-    color: #3498db;
-}
-
-p {
-    color: #555;
-}
-
+/* Button Selector */
 button {
-    background-color: #3498db;
+    background-color: black;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px;
 }

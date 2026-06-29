@@ -1,56 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    height: 100vh;
-
-    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .card{
-    background: rgba(255,255,255,0.7); /* Alpha + Opacity */
-    padding: 30px;
-    border-radius: 15px;
-    text-align: center;
-
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-
-    transition: 0.4s ease;
+    width:400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding:10px ;
 }
 
-.card:hover{
-    transform: scale(1.08);
+img{
+    width:100% ;
+    border-radius:25px ;
+}
+h2{
+    color: black;
 }
 
-h1{
-    margin-bottom: 10px;
-}
-
-p{
-    margin-bottom: 15px;
-}
-
-button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background-color: #3498db;
-    color: white;
-    cursor: pointer;
-
-    transition: 0.3s;
-}
-
-button:hover{
-    background-color: #1f6fb2;
-    transform: translateY(-3px);
+span{
+    color: brown;
 }
